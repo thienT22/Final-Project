@@ -63,34 +63,31 @@ nav {
         border-bottom-color: rgb(0, 174, 241);
         margin: 0;
         float: left;
+        
 }
 
 
 nav li {
         display: inline-block;
-        padding-right: 5em;
-        position: relative;
-        left: 10%;
+        padding-right: 3em;
 }
 
 nav ul {
-        margin: 0;
         display: inline-block;
         float: left;
+        margin: 0;
+        padding: 0;
         position: relative;
-        top: 70%;
-        
+        top: 60%;
+        width: 100%;
 }
 
 nav a {
-        text-align: right;
         text-decoration: none;
         color: #323232;
-        
 }
 
 .navtabs {
-        text-align: right;
         font-size: 200%;
         
 }
@@ -151,9 +148,9 @@ nav a {
         border-color: #0085cc;
 }
 
-body.info a.info, body.about a.about, body. a. {
+body.produkt a.produkt, body.about a.about, body. a. {
 
-background-color: green;
+color: green;
 
 }
 
