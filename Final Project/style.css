@@ -22,7 +22,7 @@ body {
 
 #logo {
         height: 100%;
-        width: 30%;
+        width: 7em;
         float: left;
         
 }
@@ -69,7 +69,7 @@ nav {
 
 nav li {
         display: inline-block;
-        padding-right: 3em;
+        padding-right: 2.5em;
 }
 
 nav ul {
@@ -78,23 +78,22 @@ nav ul {
         margin: 0;
         padding: 0;
         position: relative;
-        top: 60%;
+        top: 70%;
         width: 100%;
 }
 
 nav a {
         text-decoration: none;
         color: #323232;
-}
-
-.navtabs {
         font-size: 200%;
-        
+        font-weight: bold;
 }
 
-.navtabs:hover {
+
+
+nav a:hover {
         padding-top: .2em;
-        color: aqua;
+        color: rgb(0, 174, 241);
 }
 
 #wrapper-content {
@@ -107,11 +106,13 @@ nav a {
 .wrapper-section-1 {
         padding: 2em 15em 3em 15em;  
         background-color: ;
+        
 }
 
 .wrapper-section-2 {
         padding: 2em 15em 3em 15em;  
         background-color: #f2f2f2;
+        
 }
 
 .h1title {
@@ -148,9 +149,9 @@ nav a {
         border-color: #0085cc;
 }
 
-body.produkt a.produkt, body.about a.about, body. a. {
+.produkt a.produkt, .sikkerhet a.sikkerhet, .hvorfor a.hvorfor, .kontaktoss a.kontaktoss{
 
-color: green;
+color: #00e5e6;
 
 }
 
@@ -158,6 +159,7 @@ color: green;
 #wrapper-header {
         width: 100%;
 }
+    
 }
 
 @media screen and (max-width: 981px){
