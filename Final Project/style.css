@@ -1,0 +1,126 @@
+body {
+        margin: 0;
+        font-family: "Arial";
+}
+
+#wrapper-header {
+        width: 100%;
+        height: 6em;
+}
+
+
+
+#logo {
+        height: 6em;
+        width: 10em;
+        float: left;
+        
+}
+
+#min {
+        float: left;
+        position: relative;
+        top: .58em;
+        font-size: 400%;
+        color: #4d4d4d;
+        margin: 0;
+}
+
+#finger{
+        float: left;
+        position: relative;
+        top: .58em;
+        font-size: 400%;
+        color: rgb(0, 174, 241);
+        margin: 0;
+}
+
+#min:hover {
+        color: rgb(0, 174, 241);
+}
+
+#finger:hover{
+        color: #4d4d4d;
+}
+
+nav {
+        background-color: white;
+        float: left;
+        width: 100%;
+        height: 100%;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(0, 174, 241);
+}
+
+
+nav li {
+        display: inline-block;
+        padding-right: 5em;
+        padding-top: 6.7%;
+        position: relative;
+        left: 10%;
+}
+
+nav ul {
+        margin: 0;
+        display: flex;
+        position: relative;
+        float: left;
+        
+}
+
+nav a {
+        text-align: right;
+        text-decoration: none;
+        color: #323232;
+        
+}
+
+.navtabs {
+        text-align: right;
+        font-size: 200%;
+}
+
+#wrapper-content {
+        height: auto;
+        width: 100%;
+
+}
+
+.wrapper-section-1 {
+        padding: 2em 15em 3em 15em;  
+        background-color: ;
+}
+
+.wrapper-section-2 {
+        padding: 2em 15em 3em 15em;  
+        background-color: #f2f2f2;
+}
+
+.h1title {
+        margin: 0;
+        text-align: center;
+        font-size: 250%;
+}
+
+.desc {
+        text-align: center;
+        font-size: 120%;
+        font-weight: ;
+        line-height: 1.5;
+        
+}
+
+.button {
+        float: left;
+        background: rgb(0, 174, 241);
+        color: white;
+        border-radius: 28px;
+        font-size: 120%;
+        border-style: solid;
+        border-color: rgb(0, 174, 241);
+        padding: 10px 30px;
+        position: relative;
+        left: 90%;
+        box-shadow: 0px 1px 3px #4d4d4d;
+}
